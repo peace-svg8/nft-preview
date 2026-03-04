@@ -1,0 +1,92 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Outfit',sans-serif;
+}
+
+body{
+  background:hsl(217,54%,11%);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:100vh;
+}
+
+.card{
+  background:hsl(216,50%,16%);
+  width:250px;              
+  padding:18px;             
+  border-radius:16px;
+  box-shadow:0 22px 45px rgba(0,0,0,.3);
+}
+
+.main-img{
+  width:100%;
+  border-radius:12px;
+  margin-bottom:16px;
+}
+
+h1{
+  color:#fff;
+  font-size:18px;          
+  font-weight:600;
+  margin-bottom:14px;
+}
+
+.description{
+  color:hsl(215,51%,70%);
+  font-size:12px;          
+  font-weight:300;
+  line-height:1.6;
+  margin-bottom:18px;
+}
+
+.info{
+  display:flex;
+  justify-content:space-between;
+  margin-bottom:18px;
+}
+
+.price,.time{
+  display:flex;
+  align-items:center;
+  gap:6px;
+  font-size:14px;           
+}
+
+.price span{
+  color:hsl(178,100%,50%);
+  font-weight:400;
+}
+
+.time span{
+  color:hsl(215,51%,70%);
+}
+
+.line{
+  height:1px;
+  background:hsl(215,32%,27%);
+  margin-bottom:18px;
+}
+
+.creator{
+  display:flex;
+  align-items:center;
+  gap:12px;
+}
+
+.avatar{
+  width:24px;              
+  border-radius:50%;
+  border:1px solid #fff;
+}
+
+.creator p{
+  color:hsl(215,51%,70%);
+  font-size:14px;          
+}
+
+.creator span{
+  color:#fff;
+}
