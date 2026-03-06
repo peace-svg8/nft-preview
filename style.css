@@ -84,6 +84,7 @@ h1{
 
 .avatar{
   width:20px;
+  height: 25px;
   object-fit: cover;
   border-radius:50%;
   border:1px solid white;
